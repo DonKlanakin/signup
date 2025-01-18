@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-bg-color: #f6f5f7;
+    --signup-bg-image: linear-gradient(to right, #FF4B2B, #FF416C);
+}
+
+body {
+    background-color: var(--main-bg-color);
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-size: 62.5%;
+}
+
+input {
+    background-color: #eeeeee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+button:hover {
+    cursor: default;
+}
+
+.btn-sign-in {
+    border-radius: 20px;
+    border: 1px solid #FF4B2B;
+    background-color: #FF4B2B;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.btn-sign-in:active {
+    transform: scale(0.92);
+}
+
+.btn-sign-up {
+    border-radius: 20px;
+    border: 1px solid var(--bs-light);
+    background-color: #FF4B2B;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.btn-sign-up:active {
+    transform: scale(0.92);
+}
+
+.form-container-sign-in {
+    background-color: var(--main-bg-color);
+    max-width: 56vh;
+    height: 60vh;
+}
+
+.form-container-sign-up {
+    background-image: var(--signup-bg-image);
+    color: var(--bs-light);
+    max-width: 56vh;
+    height: 60vh;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fs-7 {
+    font-size: 0.9rem;
+}
+
+.fs-8 {
+    font-size: 0.8rem;
+}
